@@ -1,9 +1,9 @@
-import { Button } from "./components/ui/button";
+import QuizCard from "./pages/Quiz/QuizCard";
 
 function App() {
   return (
-    <div>
-      <Button>Hello</Button>
+    <div className="w-full min-h-screen flex items-center justify-center">
+      <QuizCard />
     </div>
   );
 }
